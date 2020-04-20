@@ -1,0 +1,83 @@
+{
+    "name": "GameControls",
+    "maps": [
+        {
+            "name": "InGame_Actions",
+            "id": "364713d2-d2bb-436e-bb63-0ec200f2558f",
+            "actions": [
+                {
+                    "name": "Thrusters",
+                    "type": "Value",
+                    "id": "70807ff8-9f1d-4936-bb3b-c17b75e03187",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "4ac1fad2-a470-43e1-b278-c52f5505406c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "AimScreen",
+                    "type": "Value",
+                    "id": "39f7eb3d-0f2b-4a72-a24e-6b80d2b54d49",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0d0dba97-c0cb-4557-bffd-ba9628ffd509",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "Thrusters",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "edcb0ef2-0e26-4867-8650-cfa943a62780",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "68a928a5-4bd6-4f82-b6e9-0ca72cec2b48",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "AimScreen",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse",
+            "bindingGroup": "Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
